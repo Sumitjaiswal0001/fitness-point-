@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumit fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/fitness.jpg');
+        color: white;
+        background-repeat:round;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        border: 2px solid red;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+        border: 2px solid yellow;
+        background-color: black;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        border: 2px ;
+        background-color: red;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        border: 2px solid yellow;
+        background-color: red;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .left img {
+        width: 139px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blue;
+    }
+
+    .contener {
+        border: 2px solid green;
+        margin: 100px 30px;
+        padding: 2px;
+        width: 30%;
+        border-radius: 2px;
+        background-color: black;
+        
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 300px;
+        border: 2px solid black;
+        margin: 3px auto;
+        padding: 1px;
+        font-size: 20px;
+        border-radius: 8px;
+
+    }
+    .contener h1{
+        text-align: center;
+    }
+    .contener p{
+        text-align: center;
+    }
+    .contener button{
+        display: block;
+        width: 50%;
+        margin: auto;
+        color: red;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/images (1).jpg" alt="error">
+            <div>sumit fitness point</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">
+                        <class class="active">home
+                    </a></li>
+                <li><a href="#">about as</a></li>
+                <li><a href="#">fitness calculater</a></li>
+                <li><a href="#">content as</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">E mail</button>
+        </div>
+    </header>
+    <div class="contener">
+       <h1>Join the best gym in bokaro</h1>
+       <p>Enter your details</p>
+       <form action="notition.php">
+        <div class="form-group">
+            <input type="text"name=""id="" placeholder="Enter your  full name">
+        </div>
+        <div class="form-group">
+            <input type="text"name="id=" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text"name=""id="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text"name=""id="content" placeholder="Enter your contact number">
+        </div>
+        <button class="btn">Submit</button>
+        
+       </form>
+    </div>
+</body>
+
+</html>
